@@ -37,7 +37,7 @@ class Scan extends Component {
           onScan={this.handleScan}
         />
         {this.state.swresult === true ? 
-        <h3><a href ={this.state.result}>{this.state.result}</a></h3> : 
+        window.location.href = this.state.result :
         <h3>{this.state.result}</h3>}
         
       </figure>
