@@ -1,10 +1,11 @@
 .App {
   text-align: center;
   background-color: #222029;
+  color: white;
 }
 
 .App-logo {
-  width: 35%;
+  width: 40%;
 }
 
 .App-header {
@@ -12,7 +13,7 @@
   background-color: white;
   padding: 10px;
   color: black;
-  width: 80%;
+  width: 85%;
   text-align: center;
   
 }
@@ -22,9 +23,9 @@
 }
 
 .App-title {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .figure-scan {
-  width: 80%;
+  width: 85%;
 }
