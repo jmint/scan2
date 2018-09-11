@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import QrReader from 'react-qr-reader'
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import logo from './logo.svg'
+import logo from './hdsac.svg'
 
 class Scan extends Component {
   constructor (props) {
@@ -62,7 +62,10 @@ const Presentational = () => {
   return (
     <div>
       <header className="App-header">
-      <h3 className="App-tittle">Escaner</h3>
+        <div className="Logo-c">
+          <img src={logo} alt="logo" className="App-logo"></img>
+        </div>
+        <h3 className="App-tittle">Escaner de QR</h3>
       </header>
       <Scan />
     </div>
