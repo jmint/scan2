@@ -38,7 +38,7 @@ class Scan extends Component {
         />
         {this.state.swresult === true ? 
         window.location.href = this.state.result :
-        <h3>{this.state.result}</h3>}
+        <h3 className="App-result">{this.state.result}</h3>}
         
       </figure>
     )
