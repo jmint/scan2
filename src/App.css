@@ -4,13 +4,12 @@
 }
 
 .App-logo {
-  width: 25%;
+  width: 30%;
 }
 
 .App-header {
   margin: auto;
   background-color: white;
-  height: 170px;
   padding: 10px;
   color: black;
   width: 80%;
@@ -23,7 +22,7 @@
 }
 
 .App-title {
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: center;
 }
 
