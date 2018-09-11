@@ -9,7 +9,7 @@ class Scan extends Component {
     super(props);
     this.state = {
       delay: 300,
-      result: 'Aún no se detecta un código QR',
+      result: 'Consulta de Certificado',
       swresult: false,
     }
     this.handleScan = this.handleScan.bind(this)
@@ -38,7 +38,7 @@ class Scan extends Component {
         />
         {this.state.swresult === true ? 
         window.location.href = this.state.result :
-        <h3 className="App-result">{this.state.result}</h3>}
+        <div className="mensaje-c"><h3 className="App-result">{this.state.result}</h3></div>}
         
       </figure>
     )
@@ -65,7 +65,6 @@ const Presentational = () => {
         <div className="Logo-c">
           <img src={logo} alt="logo" className="App-logo"></img>
         </div>
-        <p className="App-title">Consulta de Certificado</p>
       </header>
       <Scan />
     </div>
