@@ -65,7 +65,7 @@ const Presentational = () => {
         <div className="Logo-c">
           <img src={logo} alt="logo" className="App-logo"></img>
         </div>
-        <h3 className="App-tittle">Escaner de QR</h3>
+        <p className="App-title">Escaner de QR</p>
       </header>
       <Scan />
     </div>
