@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #222029;
   color: white;
+  height: 100%;
 }
 
 .App-logo {
@@ -13,7 +14,7 @@
   background-color: white;
   padding: 10px;
   color: black;
-  width: 85%;
+  width: 77%;
   text-align: center;
   
 }
@@ -31,5 +32,5 @@
 }
 
 .figure-scan {
-  width: 85%;
+  width: 77%;
 }
