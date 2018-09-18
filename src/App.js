@@ -63,7 +63,7 @@ const Presentational = () => {
     <div>
       <header className="App-header">
         <div className="Logo-c">
-          <img src={logo} alt="logo" className="App-logo"></img>
+          <a onClick={() => window.location.href = "http://www.cubicacioneshd.com.pe"} ><img src={logo} alt="logo" className="App-logo"></img></a>
         </div>
       </header>
       <Scan />
