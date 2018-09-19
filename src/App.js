@@ -16,12 +16,14 @@ class Scan extends Component {
   }
 
   handleScan(data) {
-    if (data){
+    if (data != null){
       this.setState({
-        result : data,
+        result : "http://" + data,
         swresult: true,
       })
+      alert(this.state.result);
     }
+    
   }
 
   handleError(err) {
@@ -36,8 +38,8 @@ class Scan extends Component {
           onError = {this.handleError}
           onScan={this.handleScan}
         />
-        {this.state.swresult === true ? 
-        window.location.href = this.state.result :
+        {this.state.swresult === true ?
+        window.location.replace(this.state.result) :
         <div className="mensaje-c"><h3 className="App-result">{this.state.result}</h3></div>}
         
       </figure>
